@@ -33,3 +33,45 @@ header > h3 {
 	font-size: 12px;
 	line-height: 15px;
 }
+
+.container {
+	margin-top: 36px;
+	width: 477px;
+	margin-inline: auto;
+}
+
+.form {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 17px;
+}
+
+.container input {
+	width: 230px;
+	border: 1px solid #d5d4d8;
+	border-radius: 5px;
+	padding: 11px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: #0d0d0d;
+}
+
+.form button {
+	cursor: pointer;
+	width: 100%;
+	background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	border: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.1em;
+}
+
+#second-input {
+	margin-left: auto;
+}
