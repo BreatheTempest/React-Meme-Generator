@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: Karla, sans-serif;
+}
+
+header {
+	display: flex;
+	background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+	align-items: center;
+	padding: 20px;
+	color: #fff;
+	gap: 7px;
+}
+
+header > img {
+	width: 30px;
+}
+
+header > h1 {
+	font-weight: 700;
+	font-size: 20.7482px;
+	line-height: 24px;
+	letter-spacing: -0.1em;
+}
+
+header > h3 {
+	margin-inline: auto 37px;
+	font-family: Inter, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+}
